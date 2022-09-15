@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import logo from '../../logo.png'
 import { ImSearch } from 'react-icons/im'
 const Header = () => {
-    console.log(logo)
+    // console.log(logo)
   return (
     <nav className='header'>
       <img src={logo} alt="logo" />
