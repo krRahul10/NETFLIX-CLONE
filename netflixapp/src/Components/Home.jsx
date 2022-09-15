@@ -99,11 +99,11 @@ const Home = () => {
       <Row title={"Now Playing Movies"} arr={nowPlayingMovies} />
       <Row title={"Top Rated Movies"} arr={topRatedMovies} />
       <Row title={"Popular Movies"} arr={popularMovies} />
-      {/* <div className="genreBox">
+      <div className="genreBox">
         {genreMovies.map((elem, index) =>(
             <Link key={index} to={`/genre/${elem.id}`}>{elem.name}</Link>
         ))}
-      </div> */}
+      </div>
     </section>
   );
 };
