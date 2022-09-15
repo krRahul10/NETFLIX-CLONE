@@ -90,7 +90,7 @@ const Home = () => {
     fetchTopRated();
     fetchPopular();
     fetchNowPlaying();
-    // getAllGenre()
+    getAllGenre()
   }, []);
   return (
     <section className="home">
