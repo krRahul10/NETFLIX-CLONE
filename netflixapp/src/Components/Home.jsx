@@ -97,7 +97,7 @@ const Home = () => {
       <div className="banner"></div>
       <Row title={"Upcoming Movies"} arr={upcomingMovies} />
       <Row title={"Now Playing Movies"} arr={nowPlayingMovies} />
-      {/* <Row title={"Top Rated Movies"} arr={topRatedMovies} /> */}
+      <Row title={"Top Rated Movies"} arr={topRatedMovies} />
       {/* <Row title={"Popular Movies"} arr={popularMovies} /> */}
       {/* <div className="genreBox">
         {genreMovies.map((elem, index) =>(
