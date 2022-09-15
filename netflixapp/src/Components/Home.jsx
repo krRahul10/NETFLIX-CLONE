@@ -89,7 +89,7 @@ const Home = () => {
     fetchUpcoming();
     fetchTopRated();
     fetchPopular();
-    // fetchNowPlaying();
+    fetchNowPlaying();
     // getAllGenre()
   }, []);
   return (
