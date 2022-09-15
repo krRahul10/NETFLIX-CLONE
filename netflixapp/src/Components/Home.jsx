@@ -10,6 +10,8 @@ const url = "https://api.themoviedb.org/3/movie";
 
 const upcoming = "/upcoming";
 
+const imgUrl = 'https://image.tmdb.org/t/p/original'
+
 const Card = ({ img }) => <img className="card" src={img} alt="cover" />;
 
 const Row = ({
@@ -24,7 +26,7 @@ const Row = ({
     <h2>{title}</h2>
     <div>
       {arr.map((item, index) => (
-        <Card key={index} img={item.img} />
+        <Card key={index} img={`${imgUrl}/${item.poster_path}`} />
       ))}
       {/* <Card
         img={
